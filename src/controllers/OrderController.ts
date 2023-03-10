@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-const stripe = require("stripe")(process.env.STRAPI_SECRET_KEY);
+const stripe = require("stripe")(process.env.STRAPE_SECRET_KEY);
 import Order from "../entities/Order";
 import { IOrder } from "../interfaces/order";
 import { IProduct } from "../interfaces/product";
